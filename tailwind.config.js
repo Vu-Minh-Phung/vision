@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '13': '3.25rem',
+        '70dvh': '70dvh'
+      }
+    },
   },
   plugins: [],
 }
